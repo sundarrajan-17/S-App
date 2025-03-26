@@ -3,15 +3,20 @@
   "compilerOptions": {
     "strict": true,
     "paths": {
-      "@/*": [
-        "./*"
-      ]
+      "@/*": ["./*"]
     }
   },
   "include": [
     "**/*.ts",
     "**/*.tsx",
     ".expo/types/**/*.ts",
-    "expo-env.d.ts"
+    "expo-env.d.ts",
+    "app/(tabs)/index.jsx",
+    "app/Notifications.jsx",
+    "app/Products.jsx",
+    "app/(tabs)/history.jsx",
+    "app/(tabs)/product.jsx",
+    "app/LogInSignUp.jsx",
+    "hooks/useProductStore.jsx"
   ]
 }
